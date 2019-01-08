@@ -9,6 +9,7 @@
 
     .home {
         background-color: $color-gray-light-1;
+        box-shadow: 0 2rem 5rem rgba(#000, .2);
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
