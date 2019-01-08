@@ -7,5 +7,25 @@
     &__content {
         background-color: $color-gray-light-1;
         grid-column: col-start 5 / full-end;
+
+        padding: 6rem 1vw; // 1 vw makes the container more responsive
+
+        // We use flexbox here because this is a 1x1 grid
+        /*
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        */
+
+        display: grid;
+        align-content: center;
+        justify-items: start; // align items in the row axis
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        font-style: italic;
+        margin-bottom: 4rem;
     }
 }
